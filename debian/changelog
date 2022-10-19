@@ -1,0 +1,26 @@
+u-msgpack-python (2.3.0-2) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/copyright: Use https protocol in Format field
+  * d/control: Remove ancient X-Python-Version field
+  * d/control: Remove ancient X-Python3-Version field
+  * Convert git repository from git-dpm to gbp layout
+  * Use debhelper-compat instead of debian/compat.
+
+  [ Sandro Tosi ]
+  * Drop python2 support; Closes: #938750
+
+ -- Sandro Tosi <morph@debian.org>  Mon, 13 Apr 2020 22:47:02 -0400
+
+u-msgpack-python (2.3.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Orestis Ioannou <orestis@oioannou.com>  Thu, 30 Mar 2017 21:47:47 +0200
+
+u-msgpack-python (2.1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #831517)
+
+ -- Orestis Ioannou <orestis@oioannou.com>  Sat, 23 Jul 2016 11:49:21 +0200
