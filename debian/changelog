@@ -1,3 +1,37 @@
+u-msgpack-python (2.8.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add dependency on python3-setuptools (Closes: #1080823)
+
+ -- Alexandre Detiste <tchet@debian.org>  Sun, 20 Oct 2024 23:48:26 +0200
+
+u-msgpack-python (2.8.0-1) unstable; urgency=medium
+
+  * Team Upload
+  * New upstream version 2.8.0
+  * Use new dh-sequence-python3
+  * Set Rules-Requires-Root: no
+
+ -- Alexandre Detiste <tchet@debian.org>  Tue, 20 Aug 2024 13:14:34 +0200
+
+u-msgpack-python (2.3.0-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from deprecated 9 to 12.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+
+ -- Sandro Tosi <morph@debian.org>  Sat, 04 Jun 2022 21:52:58 -0400
+
 u-msgpack-python (2.3.0-2) unstable; urgency=medium
 
   [ Ondřej Nový ]

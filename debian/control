@@ -1,17 +1,19 @@
 Source: u-msgpack-python
 Section: python
 Priority: optional
-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Uploaders:
  Orestis Ioannou <orestis@oioannou.com>,
 Build-Depends:
- debhelper-compat (= 9),
- dh-python,
+ debhelper-compat (= 13),
+ dh-sequence-python3,
  python3-all,
+ python3-setuptools,
+Rules-Requires-Root: no
 Standards-Version: 3.9.8
 Homepage: https://github.com/vsergeev/u-msgpack-python
-Vcs-Git: https://salsa.debian.org/python-team/modules/u-msgpack-python.git
-Vcs-Browser: https://salsa.debian.org/python-team/modules/u-msgpack-python
+Vcs-Git: https://salsa.debian.org/python-team/packages/u-msgpack-python.git
+Vcs-Browser: https://salsa.debian.org/python-team/packages/u-msgpack-python
 
 Package: python3-u-msgpack
 Architecture: all
@@ -24,5 +26,3 @@ Description: Python3 MessagePack serializer and deserializer
  PyPy implementations of Python. u-msgpack-python is fully compliant with the
  latest MessagePack specification. In particular, it supports the new binary,
  UTF-8 string, and application-defined ext types.
- .
- This is the Python 3 package.
